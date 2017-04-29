@@ -1,0 +1,45 @@
+/* CSS Document */
+div#menu{background: #E9E4B6}
+
+b.rmenutop, b.rmenubottom{display:block;background: #FFF}
+b.rmenutop b, b.rmenubottom b{display:block;height: 1px;
+    overflow: hidden; background: #E9E4B6}
+b.rmenu1{margin: 0 5px}
+b.rmenu2{margin: 0 3px}
+b.rmenu3{margin: 0 2px}
+b.rmenutop b.rmenu4, b.rmenubottom b.rmenu4{margin: 0 1px;height: 2px}
+
+#leftbar .headers{
+color: #004080;
+font: bold 110% Arial;
+background-color: #BFDFFF;
+padding: 2px;
+text-align: center;
+}
+
+
+.categorylinks{
+list-style-type: disk;
+list-style-image: url(../images/arrow.gif) !important;
+margin: 5px auto 10px 18px;
+padding: 0;
+
+}
+
+.categorylinks li{
+padding-bottom: 1px;
+}
+
+.categorylinks li a{
+margin-left: -3px;
+padding: 3px 1px;
+font-size: 12px;
+display: block;
+color: #777777;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #ececec;
+}
+
+.categorylinks a:visited{color: #777777; }
+.categorylinks a:hover {text-decoration: underline; }
